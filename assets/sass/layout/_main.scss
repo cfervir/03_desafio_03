@@ -1,0 +1,48 @@
+main {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+main h1 {
+  text-align: center;
+}
+
+.contenedorDivs {
+  display: flex;
+
+  &--cajas {
+    justify-content: space-between;
+    padding: 0.5em 0;
+  }
+  &--ejemplos {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.coloredDiv {
+  border-radius: 1em;
+  cursor: pointer;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+}
+
+.text {
+  width: 55px;
+}
+
+.colorExample {
+  border-radius: 50%;
+  margin-left: 0.5em;
+  width: 15px;
+  height: 15px;
+
+  &--A {
+    background-color: magenta;
+  }
+  &--B {
+    background-color: lime;
+  }
+  &--C {
+    background-color: cyan;
+  }
+}
